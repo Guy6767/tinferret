@@ -1,0 +1,218 @@
+body {
+  font-family: 'Noto Sans JP';
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+/* title section */
+
+#title {
+  background-color: #ea8a8a;
+  height: 51em;
+}
+
+.iphone {
+  position: absolute;
+}
+
+@media (max-width: 1036px) {
+  .iphone {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+  .iphone-row {
+    position: static;
+  }
+
+  #title {
+    text-align: center;
+    height: 100em;
+  }
+}
+
+h1 {
+  color: #f2f2f2;
+  font-family: 'Noto Sans JP';
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 1.5;
+  padding-bottom: 1em;
+  padding-top: 2em;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+button {
+  margin-right: 1em;
+}
+
+.container-fluid {
+  padding: 3% 8%;
+}
+
+/* features section */
+#features {
+  text-align: center;
+  padding: 5%;
+  position: relative;
+  background-color: white;
+}
+
+.feature-item {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.feature-description {
+  color: grey;
+  padding-top: 10px;
+  padding-bottom: 3em;
+}
+
+.feature-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.fa-check-circle:hover {
+  color: #ffaeae;
+}
+
+.fa-heart:hover {
+  color: #ffaeae;
+}
+
+.fa-bullseye:hover {
+  color: #ffaeae;
+}
+
+/* testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ea8a8a;
+  color: #f2f2f2;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonials-title {
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-bottom: 1em;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 90%;
+  margin-right: 2em;
+}
+
+/* press section */
+#press {
+  background-color: #ea8a8a;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* card pricing deck */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-title {
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-bottom: 1em;
+}
+
+.pricing-subtitle {
+  color: grey;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding-bottom: 1em;
+}
+
+.pricing-card {
+  padding: 5% 2%;
+}
+
+.card {
+  background-color: #ea8a8a;
+  color: white;
+}
+
+.card-body {
+  background-color: white;
+  color: black;
+}
+
+/* cta section */
+
+#cta {
+  background-color: #ea8a8a;
+  text-align: center;
+  color: white;
+  padding: 6em 0;
+}
+
+.cta-title {
+  font-size: 2.5em;
+  padding: 0.5em 0;
+}
+
+/* footer */
+
+#footer {
+  background-color: white;
+  text-align: center;
+  color: grey;
+  margin-bottom: 0;
+  padding: 4em 0;
+}
+
+.cta-icon {
+  padding: 1em 8px;
+}
+
+.cta-icon:hover {
+  color: #ea8a8a;
+}
+
+.credits {
+  font-size: 0.7em;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: grey;
+}
+
+/* Scrollbar hiding */
+::-webkit-scrollbar {
+  width: 0;
+}

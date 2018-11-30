@@ -1,2 +1,1 @@
-# tinferret
-A dating website for ferrets
+TinDog Starting Files
